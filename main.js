@@ -6,5 +6,6 @@ let age = currentDate.getFullYear() - dob.getFullYear();
 let months = currentDate.getMonth() - dob.getMonth();
 
 if (months < 0 || (months === 0 && currentDate.getDate() < dob.getDate())) {age--;}
+document.getElementById ('currentAge').innerHTML = `You are ${age} years old`;
 } 
 getDOB ();

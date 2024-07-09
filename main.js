@@ -7,14 +7,13 @@ let months = currentDate.getMonth() - dob.getMonth();
 
 
 if (dob < currentDate){
-    age;
+    age--;
     document.getElementById ('currentAge').innerHTML = `You are ${age} years old`;
 }
 else if (dob > currentDate) { 
- document.getElementById ('currentAge').innerHTML = `Enter valid date of birth `;
-
+    
+    document.getElementById ('currentAge').innerHTML = `Enter valid date of birth `;
 }
-
 } 
 getDOB ();
 
